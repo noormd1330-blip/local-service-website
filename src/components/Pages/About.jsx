@@ -1,4 +1,3 @@
-
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
@@ -18,37 +17,31 @@ const About = () => {
     {
       icon: "mdi:account-group-outline",
       title: "Local Professionals",
-      description:
-        "Explore service providers for your everyday needs.",
+      description: "Explore service providers for your everyday needs.",
     },
     {
       icon: "mdi:calendar-check-outline",
       title: "Easy Booking",
-      description:
-        "Find a suitable service without unnecessary hassle.",
+      description: "Find a suitable service without unnecessary hassle.",
     },
     {
       icon: "mdi:map-marker-radius-outline",
       title: "Local & Nearby",
-      description:
-        "Discover services available in your area.",
+      description: "Discover services available in your area.",
     },
     {
       icon: "mdi:heart-outline",
       title: "Customer First",
-      description:
-        "We aim to make finding local services easier.",
+      description: "We aim to make finding local services easier.",
     },
   ];
 
   return (
     <main className="w-full bg-white text-gray-900">
-
       {/* Hero Section */}
-    
+
       {/* Hero Section */}
       <section className="relative isolate min-h-112.5 overflow-hidden bg-black text-white">
-
         {/* Right Side Image */}
         <img
           src={`${import.meta.env.BASE_URL}Girl.png`}
@@ -61,9 +54,7 @@ const About = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 mx-auto flex min-h-112.5 max-w-7xl items-center px-5 py-14 sm:px-8 lg:px-12">
-
           <div className="w-full max-w-2xl lg:w-[55%]">
-
             {/* Breadcrumb */}
             <div className="mb-5 flex items-center gap-2 text-sm text-gray-300">
               <Link to="/" className="transition hover:text-amber-400">
@@ -81,15 +72,12 @@ const About = () => {
 
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
               Local Services.
-              <span className="block text-amber-400">
-                Local People.
-              </span>
+              <span className="block text-amber-400">Local People.</span>
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-gray-300 sm:text-lg">
-              We help you discover local professionals for
-              everyday needs, making it easier to find the
-              right service for your home and life.
+              We help you discover local professionals for everyday needs,
+              making it easier to find the right service for your home and life.
             </p>
 
             {/* Buttons */}
@@ -110,45 +98,40 @@ const About = () => {
                 <Icon icon="mdi:briefcase-outline" className="text-xl" />
               </Link>
             </div>
-
           </div>
         </div>
       </section>
 
       {/* Our Story */}
       <section className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 sm:px-8 lg:grid-cols-2 lg:px-12 lg:py-20">
-
         <div className="relative mx-auto w-full max-w-lg">
           <div className="absolute -bottom-4 -left-4 h-32 w-32 rounded-2xl bg-amber-300/60" />
 
           <div className="relative flex min-h-75 items-center justify-center overflow-hidden rounded-2xl border border-amber-100 bg-linear-to-br from-amber-50 via-white to-orange-100 p-8 sm:min-h-90">
             <div className="text-center">
               <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-amber-400 text-black shadow-lg shadow-amber-200">
-                <Icon
-                  icon="mdi:storefront-outline"
-                  className="text-6xl"
-                />
+                <Icon icon="mdi:storefront-outline" className="text-6xl" />
               </div>
 
-              <h3 className="mt-6 text-3xl font-bold text-gray-900">
-                Sonext
-              </h3>
+              <h3 className="mt-6 text-3xl font-bold text-gray-900">Sonext</h3>
 
               <p className="mt-2 text-gray-600">
                 Local Services. Local People.
               </p>
 
               <div className="mt-6 flex justify-center gap-3">
-                {["mdi:home-outline", "mdi:account-group-outline", "mdi:handshake-outline"].map(
-                  (icon) => (
-                    <div
-                      key={icon}
-                      className="flex h-12 w-12 items-center justify-center rounded-xl border border-amber-200 bg-white text-amber-600"
-                    >
-                      <Icon icon={icon} className="text-2xl" />
-                    </div>
-                  )
-                )}
+                {[
+                  "mdi:home-outline",
+                  "mdi:account-group-outline",
+                  "mdi:handshake-outline",
+                ].map((icon) => (
+                  <div
+                    key={icon}
+                    className="flex h-12 w-12 items-center justify-center rounded-xl border border-amber-200 bg-white text-amber-600"
+                  >
+                    <Icon icon={icon} className="text-2xl" />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -166,17 +149,15 @@ const About = () => {
           </h2>
 
           <p className="mt-5 leading-7 text-gray-600">
-            Finding the right person for an everyday task
-            should not be complicated. Sonext is designed to
-            bring customers and local service professionals
-            together in one convenient place.
+            Finding the right person for an everyday task should not be
+            complicated. Sonext is designed to bring customers and local service
+            professionals together in one convenient place.
           </p>
 
           <p className="mt-4 leading-7 text-gray-600">
-            From home repairs and cleaning to beauty services
-            and tutoring, our goal is to help people explore
-            suitable services while giving local professionals
-            a place to showcase what they do.
+            From home repairs and cleaning to beauty services and tutoring, our
+            goal is to help people explore suitable services while giving local
+            professionals a place to showcase what they do.
           </p>
 
           <div className="mt-7 flex gap-4 rounded-xl border border-amber-200 bg-amber-50 p-4">
@@ -187,8 +168,8 @@ const About = () => {
             <div>
               <h3 className="font-bold">Built Around Local Needs</h3>
               <p className="mt-1 text-sm leading-6 text-gray-600">
-                We believe connecting people with useful local
-                services can make everyday life more convenient.
+                We believe connecting people with useful local services can make
+                everyday life more convenient.
               </p>
             </div>
           </div>
@@ -198,7 +179,6 @@ const About = () => {
       {/* What We Do */}
       <section className="bg-gray-50 py-16 sm:py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-2 lg:px-12">
-
           <div>
             <p className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-amber-600">
               <span className="h-0.5 w-8 bg-amber-400" />
@@ -211,10 +191,9 @@ const About = () => {
             </h2>
 
             <p className="mt-5 max-w-xl leading-7 text-gray-600">
-              Sonext helps customers explore different types
-              of local services without having to search in
-              many places. Browse service categories and find
-              options that suit your needs.
+              Sonext helps customers explore different types of local services
+              without having to search in many places. Browse service categories
+              and find options that suit your needs.
             </p>
 
             <Link
@@ -259,9 +238,8 @@ const About = () => {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-600">
-            We want to make local service discovery more
-            convenient for customers and more accessible
-            for professionals.
+            We want to make local service discovery more convenient for
+            customers and more accessible for professionals.
           </p>
         </div>
 
@@ -274,10 +252,9 @@ const About = () => {
             <h3 className="mt-5 text-xl font-bold">Our Mission</h3>
 
             <p className="mt-3 leading-7 text-gray-600">
-              To create a simple and convenient platform where
-              customers can explore local services and
-              professionals can present their skills, services
-              and availability.
+              To create a simple and convenient platform where customers can
+              explore local services and professionals can present their skills,
+              services and availability.
             </p>
           </div>
 
@@ -289,9 +266,9 @@ const About = () => {
             <h3 className="mt-5 text-xl font-bold">Our Vision</h3>
 
             <p className="mt-3 leading-7 text-gray-600">
-              To become a helpful destination for local service
-              discovery, supporting stronger connections between
-              customers and the businesses in their communities.
+              To become a helpful destination for local service discovery,
+              supporting stronger connections between customers and the
+              businesses in their communities.
             </p>
           </div>
         </div>
@@ -310,8 +287,8 @@ const About = () => {
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-400">
-              Designed to make finding and exploring services
-              easier for customers and local professionals.
+              Designed to make finding and exploring services easier for
+              customers and local professionals.
             </p>
           </div>
 
@@ -325,9 +302,7 @@ const About = () => {
                   <Icon icon={benefit.icon} className="text-2xl" />
                 </div>
 
-                <h3 className="mt-5 text-lg font-bold">
-                  {benefit.title}
-                </h3>
+                <h3 className="mt-5 text-lg font-bold">{benefit.title}</h3>
 
                 <p className="mt-3 text-sm leading-6 text-gray-400">
                   {benefit.description}
@@ -352,8 +327,8 @@ const About = () => {
               </h2>
 
               <p className="mt-2 max-w-xl leading-6 text-gray-700">
-                Find services for your everyday needs or bring
-                your own local business to our community.
+                Find services for your everyday needs or bring your own local
+                business to our community.
               </p>
             </div>
           </div>
@@ -376,7 +351,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
     </main>
   );
 };
