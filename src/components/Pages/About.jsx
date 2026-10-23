@@ -51,7 +51,7 @@ const About = () => {
 
         {/* Right Side Image */}
         <img
-          src="/Girl.png"
+          src={`${import.meta.env.BASE_URL}Girl.png`}
           alt="Local service professional"
           className="absolute inset-y-0 right-0 z-0 h-full w-full object-cover object-center sm:w-[65%] lg:w-[58%]"
         />
