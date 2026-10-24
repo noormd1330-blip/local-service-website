@@ -68,8 +68,8 @@ const Popularservices = () => {
             >
               <img
                 src={items.images}
-                className="object-contain ease-out hover:scale-125 hover:-translate-y-1
-                         transition-transform duration-500 h-48 w-full cursor-pointer rounded-3xl object-cover active:scale-110 sm:h-56 lg:h-64"
+                className=" ease-out hover:scale-125 hover:-translate-y-1
+                         transition-transform duration-500 h-48 w-full cursor-pointer rounded-3xl object-contain active:scale-110 sm:h-56 lg:h-64"
                           alt="all Cards Images"
               />
               <h1 className="p-3 text-xl font-semibold sm:text-2xl">
