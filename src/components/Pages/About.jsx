@@ -32,7 +32,7 @@ const About = () => {
     {
       icon: "mdi:heart-outline",
       title: "Customer First",
-      description: "We aim to make finding local services easier.",
+      description: "We aim to make finding smart services easier.",
     },
   ];
 
@@ -71,12 +71,12 @@ const About = () => {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
-              Local Services.
-              <span className="block text-amber-400">Local People.</span>
+              Smart Services.
+              <span className="block text-amber-400">Smart People.</span>
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-7 text-gray-300 sm:text-lg">
-              We help you discover local professionals for everyday needs,
+              We help you discover smart professionals for everyday needs,
               making it easier to find the right service for your home and life.
             </p>
 
@@ -116,7 +116,7 @@ const About = () => {
               <h3 className="mt-6 text-3xl font-bold text-gray-900">Sonext</h3>
 
               <p className="mt-2 text-gray-600">
-                Local Services. Local People.
+                smart Services. smart People.
               </p>
 
               <div className="mt-6 flex justify-center gap-3">
@@ -150,13 +150,13 @@ const About = () => {
 
           <p className="mt-5 leading-7 text-gray-600">
             Finding the right person for an everyday task should not be
-            complicated. Sonext is designed to bring customers and local service
+            complicated. Sonext is designed to bring customers and smart service
             professionals together in one convenient place.
           </p>
 
           <p className="mt-4 leading-7 text-gray-600">
             From home repairs and cleaning to beauty services and tutoring, our
-            goal is to help people explore suitable services while giving local
+            goal is to help people explore suitable services while giving smart
             professionals a place to showcase what they do.
           </p>
 
@@ -168,7 +168,7 @@ const About = () => {
             <div>
               <h3 className="font-bold">Built Around Local Needs</h3>
               <p className="mt-1 text-sm leading-6 text-gray-600">
-                We believe connecting people with useful local services can make
+                We believe connecting people with useful smart services can make
                 everyday life more convenient.
               </p>
             </div>
@@ -191,7 +191,7 @@ const About = () => {
             </h2>
 
             <p className="mt-5 max-w-xl leading-7 text-gray-600">
-              Sonext helps customers explore different types of local services
+              Sonext helps customers explore different types of smart services
               without having to search in many places. Browse service categories
               and find options that suit your needs.
             </p>
@@ -238,7 +238,7 @@ const About = () => {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-600">
-            We want to make local service discovery more convenient for
+            We want to make Smart service discovery more convenient for
             customers and more accessible for professionals.
           </p>
         </div>
@@ -253,7 +253,7 @@ const About = () => {
 
             <p className="mt-3 leading-7 text-gray-600">
               To create a simple and convenient platform where customers can
-              explore local services and professionals can present their skills,
+              explore smart services and professionals can present their skills,
               services and availability.
             </p>
           </div>
@@ -266,7 +266,7 @@ const About = () => {
             <h3 className="mt-5 text-xl font-bold">Our Vision</h3>
 
             <p className="mt-3 leading-7 text-gray-600">
-              To become a helpful destination for local service discovery,
+              To become a helpful destination for smart service discovery,
               supporting stronger connections between customers and the
               businesses in their communities.
             </p>
@@ -283,12 +283,12 @@ const About = () => {
             </p>
 
             <h2 className="text-3xl font-bold sm:text-4xl">
-              Local Services, A Better Experience
+              Smart Services, A Better Experience
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-400">
               Designed to make finding and exploring services easier for
-              customers and local professionals.
+              customers and smart professionals.
             </p>
           </div>
 
@@ -327,7 +327,7 @@ const About = () => {
               </h2>
 
               <p className="mt-2 max-w-xl leading-6 text-gray-700">
-                Find services for your everyday needs or bring your own local
+                Find services for your everyday needs or bring your own smart
                 business to our community.
               </p>
             </div>

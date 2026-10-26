@@ -18,10 +18,11 @@ const Header = () => {
           </div>
         </div>
 
-        <ul className="order-3 flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-[#F5C95D] sm:gap-x-6 lg:order-none lg:w-auto lg:flex-1 lg:gap-6">
+        <ul className="order-3 flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-[#F5C95D] sm:gap-x-6 lg:order-0 lg:w-auto lg:flex-1 lg:gap-6">
           <li className="flex items-center gap-1.5"><Icon icon="bi:house-door" width="20" height="20" /><Link to="/home">Home</Link></li>
           <li className="flex items-center gap-1.5"><Icon icon="bi:gear" width="20" height="20" /><Link to="/service">Service</Link></li>
-          <li className="flex items-center gap-1.5"><Icon icon="bi:briefcase" width="20" height="20" /><Link to="/ForBusiness">For Business</Link></li>
+          <li className="flex items-center gap-1.5"><Icon icon="bi:briefcase" width="20" height="20" /><Link to="/slots">Slots</Link></li>
+          <li className="flex items-center gap-1.5"><Icon icon="mdi:calendar-check" width="20" height="20" /><Link to="/bookings">Bookings</Link></li>
           <li className="flex items-center gap-1.5"><Icon icon="bi:person" width="20" height="20" /><Link to="/about">About</Link></li>
           <li className="flex items-center gap-1.5"><Icon icon="mdi:contact-mail" width="20" height="20" /><Link to="/contact">Contact</Link></li>
         </ul>
